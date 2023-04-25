@@ -1139,9 +1139,9 @@
     ethers "^5.7.2"
 
 "@safe-global/safe-gateway-typescript-sdk@^3.5.3":
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/@safe-global/safe-gateway-typescript-sdk/-/safe-gateway-typescript-sdk-3.7.0.tgz#2af52f1bc73759b1b6a549fed598781c8c5fce72"
-  integrity sha512-3BvlUgp0oZ1Zkn7nG3wY1jvCEE4t530BjKcaa3r0qsf0whf/ez/0gmQwk7DTOGmVmvOfjj6HHikxnrUCCX+/3Q==
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/@safe-global/safe-gateway-typescript-sdk/-/safe-gateway-typescript-sdk-3.7.3.tgz#68ec7d82711e2d0f82ce2e577b1df67ba8da2bed"
+  integrity sha512-O6JCgXNZWG0Vv8FnOEjKfcbsP0WxGvoPJk5ufqUrsyBlHup16It6oaLnn+25nXFLBZOHI1bz8429JlqAc2t2hg==
   dependencies:
     cross-fetch "^3.1.5"
 
@@ -1327,38 +1327,38 @@
   dependencies:
     defer-to-connect "^2.0.1"
 
-"@tanstack/query-core@4.29.1":
-  version "4.29.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.29.1.tgz#62a4bc120b85e6bb3c6c0aca96346e643e232248"
-  integrity sha512-vkPewLEG8ua0efo3SsVT0BcBtkq5RZX8oPhDAyKL+k/rdOYSQTEocfGEXSaBwIwsXeOGBUpfKqI+UmHvNqdWXg==
+"@tanstack/query-core@4.29.5":
+  version "4.29.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.29.5.tgz#a0273e88bf2fc102c4c893dc7c034127b67fd5d9"
+  integrity sha512-xXIiyQ/4r9KfaJ3k6kejqcaqFXXBTzN2aOJ5H1J6aTJE9hl/nbgAdfF6oiIu0CD5xowejJEJ6bBg8TO7BN4NuQ==
 
-"@tanstack/query-persist-client-core@4.29.1":
-  version "4.29.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-persist-client-core/-/query-persist-client-core-4.29.1.tgz#bc9b3819f01919ebeb5fd269000270b3fbb2c0cb"
-  integrity sha512-lC7YsXHdHygVCHDXJqwaLGoWOHSfX+YEhwRaSWMBcHrfsHyEFzAvluQJlDytVd6JFAe49IuLJlajMGBbyI00ZA==
+"@tanstack/query-persist-client-core@4.29.5":
+  version "4.29.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-persist-client-core/-/query-persist-client-core-4.29.5.tgz#88ba2e532a7651bfa0d5eb4ba116ae94859a5bb3"
+  integrity sha512-IjLtEZiEUnzpcFVdHoZGqtjv2g0smLK5WOWk8hP/2ndlXe5kaSbtCKWO2WFbw7yWPYVMM2m9zyglZqg5kU1DMA==
   dependencies:
-    "@tanstack/query-core" "4.29.1"
+    "@tanstack/query-core" "4.29.5"
 
 "@tanstack/query-sync-storage-persister@^4.27.1":
-  version "4.29.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-sync-storage-persister/-/query-sync-storage-persister-4.29.1.tgz#ef0ed1f06f06abf093c5a0c9b0b7f152d38319f3"
-  integrity sha512-rX0bPgqhkz71HEQIz47Z3IFxs2fg7dO9uoxkjwo50VljrhXMl6Yv77xCeKYL97fNX7zhuMkax8HEy953woJ/QA==
+  version "4.29.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-sync-storage-persister/-/query-sync-storage-persister-4.29.5.tgz#0d55e8e427d2ffcc39a14aab00c1812bc21d413c"
+  integrity sha512-A5K2owrQ1z/Ipndt/thv3vMXjRPOT02jwlXM51OV5IHg4FLQ9vlXvImYWlBoHmY1MMl91x9bqRgz0gX6hnr14g==
   dependencies:
-    "@tanstack/query-persist-client-core" "4.29.1"
+    "@tanstack/query-persist-client-core" "4.29.5"
 
 "@tanstack/react-query-persist-client@^4.28.0":
-  version "4.29.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query-persist-client/-/react-query-persist-client-4.29.3.tgz#79c8e4ce92d83508d86d2d1c9657697f4467d223"
-  integrity sha512-yyQYr1cLxmakVdWOUV9U/7D4fLiIdtlFa18KIwUI1MSSRwvAjjdx6D4GSmsuLXL9eSudNMyvpy5iTAICv2+CoQ==
+  version "4.29.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query-persist-client/-/react-query-persist-client-4.29.5.tgz#a7c6e08e30709b070a8db92573eee567173287e2"
+  integrity sha512-zvQChSqO/HpRHWjCn+4L4M45Yr2eslogJcQr2HFxRw27Wj/5WlFYhnQFo5SCCR+gZh09tMnkzD+zFhN76wMEGw==
   dependencies:
-    "@tanstack/query-persist-client-core" "4.29.1"
+    "@tanstack/query-persist-client-core" "4.29.5"
 
 "@tanstack/react-query@^4.28.0":
-  version "4.29.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.29.3.tgz#037205560784ed4a5e3fd605a2143e325b6189fa"
-  integrity sha512-FPQrMu7PbCgBcVzoRJm7WmQnAFv+LUgZM9KBZ7Vk/+yERH2BDLvQRuAgczQd5Tb1s3HbOktECRDaOkUxdyBAjw==
+  version "4.29.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.29.5.tgz#3890741291f9f925933243d78bd74dfc59d64208"
+  integrity sha512-F87cibC3s3eG0Q90g2O+hqntpCrudKFnR8P24qkH9uccEhXErnJxBC/AAI4cJRV2bfMO8IeGZQYf3WyYgmSg0w==
   dependencies:
-    "@tanstack/query-core" "4.29.1"
+    "@tanstack/query-core" "4.29.5"
     use-sync-external-store "^1.2.0"
 
 "@types/bn.js@^5.1.0", "@types/bn.js@^5.1.1":
@@ -2881,9 +2881,9 @@ eip1193-provider@1.0.1:
     "@json-rpc-tools/provider" "^1.5.5"
 
 electron-to-chromium@^1.4.284:
-  version "1.4.369"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.369.tgz#a98d838cdd79be4471cd04e9b4dffe891d037874"
-  integrity sha512-LfxbHXdA/S+qyoTEA4EbhxGjrxx7WK2h6yb5K2v0UCOufUKX+VZaHbl3svlzZfv9sGseym/g3Ne4DpsgRULmqg==
+  version "1.4.371"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.371.tgz#393983ef087268a20c926a89be30e9f0bfc803b0"
+  integrity sha512-jlBzY4tFcJaiUjzhRTCWAqRvTO/fWzjA3Bls0mykzGZ7zvcMP7h05W6UcgzfT9Ca1SW2xyKDOFRyI0pQeRNZGw==
 
 elliptic@6.5.4, elliptic@^6.4.0, elliptic@^6.5.4:
   version "6.5.4"
@@ -4631,9 +4631,9 @@ mkdirp-promise@^5.0.1:
     mkdirp "*"
 
 mkdirp@*:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-3.0.0.tgz#758101231418bda24435c0888a91d9bd91f1372d"
-  integrity sha512-7+JDnNsyCvZXoUJdkMR0oUE2AmAdsNXGTmRbiOjYIwQ6q+bL6NwrozGQdPcmYaNcrhH37F50HHBUzoaBV6FITQ==
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-3.0.1.tgz#e44e4c5607fb279c168241713cc6e0fea9adcb50"
+  integrity sha512-+NsyUUAZDmo6YVHzL/stxSu3t9YS1iljliy3BSDrXJ/dkn1KYdmtZODGGjLcc9XLgVVpH4KshHB8XmZgMhaBXg==
 
 mkdirp@^0.5.5:
   version "0.5.6"
@@ -5648,9 +5648,9 @@ rlp@^2.2.4:
     bn.js "^5.2.0"
 
 rollup@^3.20.2:
-  version "3.20.7"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.20.7.tgz#4f045dfb388abe08dd159f8cd286dcaca1e80b28"
-  integrity sha512-P7E2zezKSLhWnTz46XxjSmInrbOCiul1yf+kJccMxT56vxjHwCbDfoLbiqFgu+WQoo9ij2PkraYaBstgB2prBA==
+  version "3.21.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.21.0.tgz#0a71517db56e150222670f88e5e7acfa4fede7c8"
+  integrity sha512-ANPhVcyeHvYdQMUyCbczy33nbLzI7RzrBje4uvNiTDJGIMtlKoOStmympwr9OtS1LZxiDmE2wvxHyVhoLtf1KQ==
   optionalDependencies:
     fsevents "~2.3.2"
 
