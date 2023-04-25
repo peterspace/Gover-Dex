@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import IndexPage from './pages/IndexPage.jsx';
 import Layout from './Layout';
-import BuyPage from './components/Buy/buyPage';
+import BuyPage from './components/Buy/BuyPage';
 // import axios from 'axios';
 
 //==============={AIR}======================================================
